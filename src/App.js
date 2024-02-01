@@ -334,7 +334,7 @@ const App = () => {
   const isHomePage = window.location.pathname === '/';
   const navigateToHome = () => {
     // Programmatically navigate to the home page
-    window.location.href = '/portfolio';
+    window.location.href = '/portfolio/';
   };
 
   return (
@@ -344,15 +344,15 @@ const App = () => {
         <header className="header">
           <h1 onClick={navigateToHome} >Miguel Dias Coelho</h1>
           <div>
-            <NavLink to="/saintmike" activeClassName="active">Saint Mike Instrumentals</NavLink>
-            <NavLink to="/projects" activeClassName="active">Programming Projects</NavLink>
-            <NavLink to="/skills" activeClassName="active">Skills</NavLink>
-            <NavLink to="/education" activeClassName="active">Education</NavLink>
-            <NavLink to="/contact" activeClassName="active">Contact & Links</NavLink>
+            <NavLink to="/portfolio/saintmike" activeClassName="active">Saint Mike Instrumentals</NavLink>
+            <NavLink to="/portfolio/projects" activeClassName="active">Programming Projects</NavLink>
+            <NavLink to="/portfolio/skills" activeClassName="active">Skills</NavLink>
+            <NavLink to="/portfolio/education" activeClassName="active">Education</NavLink>
+            <NavLink to="/portfolio/contact" activeClassName="active">Contact & Links</NavLink>
           </div>
         </header>
         <Routes>
-          <Route path="/portfolio" element={<Home />} />
+          <Route path="/portfolio/" element={<Home />} />
           <Route path="/portfolio/saintmike" element={<SaintMike />} />
           <Route path="/portfolio/projects" element={<Projects />} >
             <Route index element={<HskFlashcard />} />
