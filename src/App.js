@@ -334,7 +334,7 @@ const App = () => {
   const isHomePage = window.location.pathname === '/';
   const navigateToHome = () => {
     // Programmatically navigate to the home page
-    window.location.href = '/';
+    window.location.href = '/portfolio';
   };
 
   return (
@@ -352,20 +352,20 @@ const App = () => {
           </div>
         </header>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/saintmike" element={<SaintMike />} />
-          <Route path="/projects" element={<Projects />} >
+          <Route path="/portfolio" element={<Home />} />
+          <Route path="/portfolio/saintmike" element={<SaintMike />} />
+          <Route path="/portfolio/projects" element={<Projects />} >
             <Route index element={<HskFlashcard />} />
               <Route path="fintexsim" element={<FintexSim />} />
               <Route path="instantshoegazer" element={<InstantShoegazer />} />
         </Route>
-          <Route path="/skills/*" element={<Skills />}>
+          <Route path="/portfolio/skills/*" element={<Skills />}>
             <Route index element={<Programming />} />
               <Route path="business" element={<Business />} />
               <Route path="languages" element={<Languages />} />
         </Route>
-          <Route path="/education" element={<Education />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/portfolio/education" element={<Education />} />
+          <Route path="/portfolio/contact" element={<Contact />} />
         </Routes>
         <div className="additional-text">
           <p>{visibleText}</p>
