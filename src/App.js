@@ -154,9 +154,9 @@ const Projects = () => (
 
 
     <div className="bottom-navigation2">
-      <NavLink to="/projects" end activeClassName="active">HSK Flashcard</NavLink>
-      <NavLink to="/projects/fintexsim" activeClassName="active">finteX Sim</NavLink>
-      <NavLink to="/projects/instantshoegazer" activeClassName="active">Instant Shoegazer</NavLink>
+      <NavLink to="/portfolio/projects" end activeClassName="active">HSK Flashcard</NavLink>
+      <NavLink to="/portfolio/projects/fintexsim" activeClassName="active">finteX Sim</NavLink>
+      <NavLink to="/portfolio/projects/instantshoegazer" activeClassName="active">Instant Shoegazer</NavLink>
     </div>
   </div>
 );
@@ -223,9 +223,9 @@ const Skills = () => (
     </Routes>
 
     <div className="bottom-navigation">
-      <NavLink to="/skills" end activeClassName="active">Programming</NavLink>
-      <NavLink to="/skills/business" activeClassName="active">Business</NavLink>
-      <NavLink to="/skills/languages" activeClassName="active">Languages</NavLink>
+      <NavLink to="/portfolio/skills" end activeClassName="active">Programming</NavLink>
+      <NavLink to="/portfolio/skills/business" activeClassName="active">Business</NavLink>
+      <NavLink to="/portfolio/skills/languages" activeClassName="active">Languages</NavLink>
     </div>
   </div>
 );
