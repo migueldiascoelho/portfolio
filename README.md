@@ -1,4 +1,4 @@
-# Welcome to Miguel's Portfolio 👋
+# Welcome to my portfolio 👋
 
 This repository contains my professional portfolio showcasing my skills, projects, and experience in software development.
 
