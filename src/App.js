@@ -331,7 +331,10 @@ const App = () => {
     return () => clearInterval(intervalId);
   }, [textIndex, texts, visibleText]);
 
-  const isHomePage = window.location.pathname === '/';
+
+
+  const isHomePage = window.location.pathname === '/portfolio/';
+  
   const navigateToHome = () => {
     // Programmatically navigate to the home page
     window.location.href = '/portfolio/';
