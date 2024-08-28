@@ -4,6 +4,7 @@ import './App.css';
 import StarField from './StarField';
 import Collage from './Collage';
 import SaintMike2 from './SaintMike';
+import Certifications2 from './Certifications';
 
 import centerImage1 from './graphics/jsLogoTest.png';
 import centerImage2 from './graphics/pythonLogoTest.png';
@@ -49,6 +50,7 @@ import linkedinlogo from './graphics/linkedinLogo.png'
 import githubLogo from './graphics/githubLogo.png'
 
 
+
 const Home = () => {
   const collageImages = [
     'piece1', 'piece2', 'piece3', 'piece4',
@@ -57,8 +59,8 @@ const Home = () => {
 
   return (
     <div>
-      <p className="born-text">Born in 1998 in Portugal, Europe. I always aim to create something interesting.</p>
-      <p className="born-text">I created a successful music production business and now want to break into tech.<br/></p>
+      <p className="born-text">Born in 1998 in Portugal, Europe. I always aim to learn new things and create something interesting.</p>
+      <p className="born-text">Currently learning CS and trying to break into the tech industry.<br/></p>
       
       {/* Use the Collage component */}
       <Collage images={collageImages} />
@@ -71,6 +73,12 @@ const Home = () => {
 const SaintMike = () => (
   <div>
     <SaintMike2 />
+  </div>
+);
+
+const Certifications = () => (
+  <div>
+    <Certifications2 />
   </div>
 );
 
@@ -347,27 +355,29 @@ const App = () => {
         <header className="header">
           <h1 onClick={navigateToHome} >Miguel Dias Coelho</h1>
           <div>
-            <NavLink to="/portfolio/saintmike" activeClassName="active">Saint Mike Instrumentals</NavLink>
             <NavLink to="/portfolio/projects" activeClassName="active">Programming Projects</NavLink>
+            <NavLink to="/portfolio/certifications" activeClassName="active">Certifications</NavLink>
             <NavLink to="/portfolio/skills" activeClassName="active">Skills</NavLink>
             <NavLink to="/portfolio/education" activeClassName="active">Education</NavLink>
+            <NavLink to="/portfolio/saintmike" activeClassName="active">Saint Mike Instrumentals</NavLink>
             <NavLink to="/portfolio/contact" activeClassName="active">Contact & Links</NavLink>
           </div>
         </header>
         <Routes>
           <Route path="/portfolio/" element={<Home />} />
-          <Route path="/portfolio/saintmike" element={<SaintMike />} />
           <Route path="/portfolio/projects" element={<Projects />} >
             <Route index element={<HskFlashcard />} />
               <Route path="fintexsim" element={<FintexSim />} />
               <Route path="instantshoegazer" element={<InstantShoegazer />} />
         </Route>
+          <Route path="/portfolio/certifications" element={<Certifications />} />
           <Route path="/portfolio/skills/*" element={<Skills />}>
             <Route index element={<Programming />} />
               <Route path="business" element={<Business />} />
               <Route path="languages" element={<Languages />} />
         </Route>
           <Route path="/portfolio/education" element={<Education />} />
+          <Route path="/portfolio/saintmike" element={<SaintMike />} />
           <Route path="/portfolio/contact" element={<Contact />} />
         </Routes>
         <div className="additional-text">
