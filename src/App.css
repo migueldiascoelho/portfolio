@@ -542,6 +542,13 @@ body {
   font-family: 'Inconsolata', monospace;
 }
 
+.links-heading{
+  position: absolute;
+  top:570px;
+  left:740px;
+  font-family: 'Inconsolata', monospace;
+}
+
 .tools-heading2{
   position: absolute;
   top:420px;
@@ -603,6 +610,14 @@ body {
   height: auto;
   left:580px;
   top:586px;
+}
+
+.linkImage1 {
+  position: absolute;
+  width: 4.2%;
+  height: auto;
+  left:800px;
+  top:584px;
 }
 
 .linkedin-logo{

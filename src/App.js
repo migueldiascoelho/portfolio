@@ -100,7 +100,15 @@ const HskFlashcard = () => (
           <img src={centerImage2} alt="Python" className="tool-image6" />
           <img src={centerImage82} alt="React" className="tool-image7" />
         </div>
-      </div>      
+      </div>
+      <div className="links-section">
+        <p className="links-heading">Links:</p>
+        <div className="links-images">
+          <a href="https://github.com/migueldiascoelho/HSKFlashcards" target="_blank" rel="noopener noreferrer">
+            <img src={githubLogo} alt="Git" className="linkImage1" />
+          </a>
+        </div>
+      </div>       
     </div>
   </div>
 );
