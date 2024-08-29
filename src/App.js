@@ -43,9 +43,10 @@ import fintex1 from './graphics/fintex1.jpg';
 import fintex2 from './graphics/fintex2.jpg';
 import fintex3 from './graphics/fintex3.jpg';
 import hsklogo from './graphics/hsklogo.png';
-import instantShoegazeDemo from './graphics/instantShoegazer.png';
+import instantShoegazeDemo from './graphics/elementsDistortion.png';
 import fintexlogo from './graphics/fintexlogo.png'
-import instantShoegazeLogo from './graphics/instantShoegazeLogo.png'
+import instantShoegazeLogo from './graphics/bestLogo1.png'
+import grunstadtPage from './graphics/grunstadt.png'
 import linkedinlogo from './graphics/linkedinLogo.png'
 import githubLogo from './graphics/githubLogo.png'
 
@@ -98,7 +99,6 @@ const HskFlashcard = () => (
         <div className="tools-images">
           <img src={centerImage2} alt="Python" className="tool-image6" />
           <img src={centerImage82} alt="React" className="tool-image7" />
-          {/* Add more tool images as needed */}
         </div>
       </div>      
     </div>
@@ -130,7 +130,7 @@ const FintexSim = () => (
   </div>
 );
 
-const InstantShoegazer = () => (
+const Grunstadt = () => (
   <div>
     <div>
       <ProjectInfo3 />
@@ -138,6 +138,7 @@ const InstantShoegazer = () => (
     <div>
       <img src={instantShoegazeDemo} alt="Shoegazer Pic" className="shoegazer-pic" />
       <img src={instantShoegazeLogo} alt="Project Logo 3" className="project-logo3" />
+      <img src={grunstadtPage} alt="Project Logo 4" className="shoegazer-pic2" />
 
       {/* Tools Section */}
       <div className="tools-section">
@@ -157,14 +158,14 @@ const Projects = () => (
     <Routes>
       <Route index element={<HskFlashcard />} />
       <Route path="fintexsim" element={<FintexSim />} />
-      <Route path="instantshoegazer" element={<InstantShoegazer />} />
+      <Route path="grunstadtaudio" element={<Grunstadt />} />
     </Routes>
 
 
     <div className="bottom-navigation2">
       <NavLink to="/portfolio/projects" end activeClassName="active">HSK Flashcard</NavLink>
       <NavLink to="/portfolio/projects/fintexsim" activeClassName="active">finteX Sim</NavLink>
-      <NavLink to="/portfolio/projects/instantshoegazer" activeClassName="active">Instant Shoegazer</NavLink>
+      <NavLink to="/portfolio/projects/grunstadtaudio" activeClassName="active">Grünstadt Audio</NavLink>
     </div>
   </div>
 );
@@ -368,7 +369,7 @@ const App = () => {
           <Route path="/portfolio/projects" element={<Projects />} >
             <Route index element={<HskFlashcard />} />
               <Route path="fintexsim" element={<FintexSim />} />
-              <Route path="instantshoegazer" element={<InstantShoegazer />} />
+              <Route path="grunstadtaudio" element={<Grunstadt />} />
         </Route>
           <Route path="/portfolio/certifications" element={<Certifications />} />
           <Route path="/portfolio/skills/*" element={<Skills />}>

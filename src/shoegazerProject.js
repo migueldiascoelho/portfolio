@@ -7,21 +7,22 @@ const ProjectInfo3 = () => (
 
     <p>
       <strong>Description:</strong><br />
-      Instant Shoegazer is a straightforward VST Plugin that can be used by artists/engineers to give their sound a pleasent shoegazy effect or other experimental atmospheric genres type undertones.
+      Grünstadt Audio is my plan for a VST Audio Plugin company. Being a long time user of VST Audio Plugins for my music production work,
+       having some contacts in the industry and knowing C++ programming put me in a good place to start this project.
     </p>
     
-    <p>This plugin is still in the early stages of development</p>
+    <p>The first plugin is still in early stages of development</p>
     
     <p style={{ marginTop: '20px'}}>
-    <strong>(Predicted) Features:</strong><br />
-            - 16 studio-ready presets
+    <strong>Features of the first plugin (Elements of Distortion):</strong><br />
+            - 4 types of Distortion
     </p>
-    <p>- Different types of reverb, including reverse reverb</p>
-    <p>- Chorus and other Modulation type effects</p>
-    <p>- Delays</p>
-    <p>- Granular FX's</p>
-    <p>- A knob that controls the intensity of the selected effects</p>
-    <p><strong>This image is a mockup made with Figma.</strong></p>
+    <p>- Each color represents an element, which translates to a different sound distortion algorithm</p>
+    <p>- Gain, Mix and Output knobs for extra control</p>
+    <p>- High Quality Factory Presets</p>
+    <p>- Possibility to save custom presets</p>
+    <p><strong>The 1st image is a screenshot of the actual program.</strong></p>
+    <p><strong>2nd image is a mockup of Grünstadt Audio's website.</strong></p>
 
     </div>
 

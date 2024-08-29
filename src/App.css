@@ -213,8 +213,8 @@ body {
 .project-logo3 {
   position:absolute;
   left: 1140px;
-  top: 90px;
-  width: 100px;
+  top: 130px;
+  width: 160px;
   height: auto;
 }
 
@@ -521,10 +521,18 @@ body {
 
 .shoegazer-pic{
   position: absolute;
-  width: 26%;
+  width: 15%;
   margin-bottom: 20px;
-  left: 500px;
-  top: 240px;
+  left: 400px;
+  top: 230px;
+}
+
+.shoegazer-pic2{
+  position: absolute;
+  width: 25%;
+  margin-bottom: 20px;
+  left: 650px;
+  top: 230px;
 }
 
 .tools-heading{
