@@ -130,10 +130,16 @@ const FintexSim = () => (
           <img src={centerImage1} alt="JS Tool" className="tool-image3" />
           <img src={centerImage3} alt="React" className="tool-image4" />
           <img src={centerImage7} alt="CSS" className="tool-image5" />
-          {/* Add more tool images as needed */}
         </div>
       </div>
-
+      <div className="links-section">
+        <p className="links-heading">Links:</p>
+        <div className="links-images">
+          <a href="https://github.com/migueldiascoelho/fintexSim" target="_blank" rel="noopener noreferrer">
+            <img src={githubLogo} alt="Git" className="linkImage1" />
+          </a>
+        </div>
+      </div>   
     </div>
   </div>
 );
