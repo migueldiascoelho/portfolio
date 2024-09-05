@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.abcc5de1.css",
-    "main.js": "/portfolio/static/js/main.40f31ad0.js",
+    "main.js": "/portfolio/static/js/main.cc06266b.js",
     "static/js/787.d4aba7ab.chunk.js": "/portfolio/static/js/787.d4aba7ab.chunk.js",
     "static/media/hsk2.gif": "/portfolio/static/media/hsk2.8b4709e13b2899c9cdce.gif",
     "static/media/hsk3.gif": "/portfolio/static/media/hsk3.943eef8a0cf48d61de87.gif",
@@ -18,6 +18,7 @@
     "static/media/portfolioLogo.png": "/portfolio/static/media/portfolioLogo.3ac7e106736cdf8ccd80.png",
     "static/media/grunstadt.png": "/portfolio/static/media/grunstadt.01edb97232538b193f58.png",
     "static/media/fintexlogo.png": "/portfolio/static/media/fintexlogo.4ef7fa242f69994f167f.png",
+    "static/media/cybersecurity.png": "/portfolio/static/media/cybersecurity.b88c16fa0ea660ca7c39.png",
     "static/media/saintmikeLogo.png": "/portfolio/static/media/saintmikeLogo.b56242ae0dcce71eb1cd.png",
     "static/media/saintmikeChannel.png": "/portfolio/static/media/saintmikeChannel.e5e406752e97f170d80e.png",
     "static/media/elementsDistortion.png": "/portfolio/static/media/elementsDistortion.09b104f3991c9bbfdc92.png",
@@ -63,11 +64,11 @@
     "static/media/uk.png": "/portfolio/static/media/uk.f131c7ccfe03550858f7.png",
     "index.html": "/portfolio/index.html",
     "main.abcc5de1.css.map": "/portfolio/static/css/main.abcc5de1.css.map",
-    "main.40f31ad0.js.map": "/portfolio/static/js/main.40f31ad0.js.map",
+    "main.cc06266b.js.map": "/portfolio/static/js/main.cc06266b.js.map",
     "787.d4aba7ab.chunk.js.map": "/portfolio/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.abcc5de1.css",
-    "static/js/main.40f31ad0.js"
+    "static/js/main.cc06266b.js"
   ]
 }
