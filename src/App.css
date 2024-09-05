@@ -710,7 +710,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Full height of the viewport */
+  height: 100vh;
   position: relative;
   bottom: 170px;
   left: 40px;
@@ -719,10 +719,11 @@ body {
 .badge-row {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px; /* Space between the rows */
+  margin-bottom: 20px; 
 }
 
 .certification-badge {
-  max-width: 180px; /* Adjust size as needed */
-  margin: 0 10px; /* Space between badges */
+  max-width: 180px;
+  margin: 0 10px; 
 }
+
